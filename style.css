@@ -1,0 +1,178 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+section {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    width: 92%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+header h1 {
+    margin-bottom: .1em;
+
+}
+
+header ul {
+    padding-left: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+
+.item time {
+    float: right;
+    margin-left: .5em;
+    font-size: .7em;
+}
+
+#contact-info ul li {
+    position: relative;
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-info li {
+    position: relative;
+    display: inline;
+    margin-right: 1em;
+    font-size: .9vw;
+}
+
+ul.no-bull li {
+    display: inline;
+}
+
+ul.no-bull {
+    padding: 0;
+}
+
+span.inst {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+span.location {
+    font-style: italic;
+    font-size: .9em;
+}
+
+ul.no-bull li.focus {
+    display: block;
+    text-indent: 1em;
+}
+
+ul.bullets {
+    display: block;
+    list-style-type: disc;
+}
+
+main {
+    position: absolute;
+
+}
+
+.item {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: blue thin solid;
+    border-bottom:blue thin solid;
+    width: 92%;
+}
+
+.item:hover {
+    background-color: white;
+    border-top: purple thin solid;
+    border-bottom: purple thin solid;
+}
+
+header:hover {
+    background-color: white;
+}
+
+
+.highlight {
+    background-color: gainsboro;
+    border-top: purple thin solid;
+    border-bottom: purple thin solid;
+}
+
+.highlight:hover {
+    background-color: gainsboro;
+    border-top: purple thin solid;
+    border-bottom: purple thin solid;
+}
+
+#intro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3em;
+    color: deeppink;
+    width:900px;
+    height: 1080px;
+    background-color: aliceblue;
+    border: 1px solid purple;
+
+}
+
+#intro h1 {
+    padding-left: 1em;
+}
+
+#intro ul {
+    list-style-type: none;
+    margin-left: 30%;
+    font-size: 1em;
+    color: lawngreen;
+}
+
+#extra {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+    width: 900px;
+    height:1080px;
+    border: 1px solid purple;
+}
+
+.more {
+    width: 900px;
+    height: 1080px;
+    position: absolute;
+    display: none;
+    border-color: purple;
+    border-style: solid;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-left-width: 0;
+}
+
+#resume-overview {
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 900px;
+    height:1080px;
+    border: 1px solid purple;
+}
+
